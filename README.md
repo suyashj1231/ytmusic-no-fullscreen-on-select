@@ -47,4 +47,52 @@ https://music.youtube.com
 
 If the site was already open, perform a hard refresh.
 
-Windows or Linux:
+Windows or Linux: Ctrl + Shift + R
+
+macOS: Cmd + Shift + R
+
+## How it works
+
+YouTube Music opens the fullscreen player using internal navigation events rather than stable DOM attributes.
+
+This script:
+- Observes navigation changes
+- Forces the layout back to mini player mode
+- Runs early in the page lifecycle to prevent UI flicker
+
+No network requests or external libraries are used.
+
+---
+
+## Compatibility
+
+- Chrome based browsers
+- Firefox
+- Desktop only
+
+Mobile browsers are not supported.
+
+---
+
+## Limitations
+
+- Fullscreen player may briefly appear before being closed
+- Explicit user actions that force the player page may still succeed
+- YouTube UI changes may require future updates
+
+---
+
+## Contributing
+
+Pull requests are welcome.
+
+If YouTube Music changes behavior, feel free to open an issue with:
+- Browser name and version
+- Steps to reproduce
+- Console errors if any
+
+---
+
+## License
+
+MIT License
