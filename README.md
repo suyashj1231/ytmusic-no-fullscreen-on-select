@@ -1,7 +1,5 @@
 # ytmusic-no-fullscreen-on-select
 
-# ytmusic-no-fullscreen
-
 A lightweight Tampermonkey userscript that prevents YouTube Music from automatically opening the fullscreen player page when selecting or switching tracks.
 
 This script keeps playback in the compact mini player unless the user explicitly opens the player page.
