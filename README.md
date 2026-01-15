@@ -1,0 +1,1 @@
+# ytmusic-no-fullscreen-on-select
