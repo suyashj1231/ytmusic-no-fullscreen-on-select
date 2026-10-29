@@ -4,7 +4,6 @@ A lightweight Tampermonkey userscript that prevents YouTube Music from automatic
 
 This script keeps playback in the compact mini player unless the user explicitly opens the player page.
 
----
 
 ## Features
 
@@ -14,7 +13,6 @@ This script keeps playback in the compact mini player unless the user explicitly
 - Runs entirely client side
 - Minimal and fast
 
----
 
 ## Installation
 
@@ -25,7 +23,6 @@ You need one of the following browser extensions:
 - Tampermonkey (Chrome, Edge, Brave, Opera, Firefox)
 - Greasemonkey (Firefox)
 
----
 
 ### 2. Add the script
 
@@ -35,7 +32,6 @@ You need one of the following browser extensions:
 4. Paste the contents of the script file from this repository
 5. Save the script
 
----
 
 ### 3. Open YouTube Music
 
@@ -60,7 +56,6 @@ This script:
 
 No network requests or external libraries are used.
 
----
 
 ## Compatibility
 
@@ -70,7 +65,6 @@ No network requests or external libraries are used.
 
 Mobile browsers are not supported.
 
----
 
 ## Limitations
 
@@ -78,7 +72,6 @@ Mobile browsers are not supported.
 - Explicit user actions that force the player page may still succeed
 - YouTube UI changes may require future updates
 
----
 
 ## Contributing
 
@@ -89,7 +82,6 @@ If YouTube Music changes behavior, feel free to open an issue with:
 - Steps to reproduce
 - Console errors if any
 
----
 
 ## License
 
